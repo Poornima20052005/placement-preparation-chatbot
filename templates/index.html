@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Placement Chatbot</title>
+    <title>Placement Chatbot</title>
 </head>
 <body>
+
 <h2>Placement Preparation Chatbot</h2>
 
-<input id="userInput" type="text">
-<button onclick="send()">Send</button>
+<div id="chat-box"></div>
 
-<p id="botReply"></p>
+<input type="text" id="user-input" placeholder="Type message...">
+<button onclick="sendMessage()">Send</button>
 
 <script>
-function send(){
-    let input = document.getElementById("userInput").value;
+async function sendMessage() {
+    let inputField = document.getElementById("user-input");
+    let message = inputField.value;
 
-    fetch(`/get?msg=${input}`)
-    .then(res => res.json())
-    .then(data => {
-        document.getElementById("botReply").innerText = data;
+    let response = await fetch("/chat", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ message: message })
     });
+
+    let data = await response.json();
+
+    let chatBox = document.getElementById("chat-box");
+
+    chatBox.innerHTML += "<p><b>You:</b> " + message + "</p>";
+    chatBox.innerHTML += "<p><b>Bot:</b> " + data.response + "</p>";
+
+    inputField.value = "";
 }
 </script>
+
 </body>
 </html>
