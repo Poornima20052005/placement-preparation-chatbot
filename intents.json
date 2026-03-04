@@ -1,0 +1,123 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you with placement preparation?"
+      ]
+    },
+
+    {
+      "tag": "html",
+      "patterns": [
+        "What is HTML?",
+        "Explain HTML",
+        "HTML meaning",
+        "Tell me about HTML"
+      ],
+      "responses": [
+        "HTML stands for HyperText Markup Language. It is used to create the structure of web pages,It is the foundation of every website Used to create:Headings,Paragraphs,Images,Links,Tables,Forms,Works with CSS & JavaScript to build complete websites."
+      ]
+    },
+{
+  "tag": "css",
+  "patterns": [
+    "What is CSS?",
+    "Explain CSS",
+    "CSS full form",
+    "What is cascading style sheets?",
+    "Uses of CSS",
+    "Why CSS is used?"
+  ],
+  "responses": [
+    "CSS stands for Cascading Style Sheets. It is used to style and design web pages including colors, fonts, layouts, and responsiveness."
+  ]
+},
+{
+  "tag": "javascript",
+  "patterns": [
+    "What is JavaScript?",
+    "Explain JavaScript",
+    "Explain JS",
+    "Uses of JavaScript",
+    "Why JavaScript is important?",
+    "What is JS?"
+  ],
+  "responses": [
+    "JavaScript is a programming language used to make web pages interactive. It handles dynamic content, form validation, and API calls."
+  ]
+},
+{
+  "tag": "django",
+  "patterns": [
+    "What is Django?",
+    "Explain Django",
+    "Django framework",
+    "Why use Django?",
+    "Uses of Django"
+  ],
+  "responses": [
+    "Django is a high-level Python web framework used to build secure and scalable web applications quickly."
+  ]
+},
+    {
+      "tag": "oops",
+      "patterns": [
+        "Explain OOPS",
+        "What is OOPS?",
+        "OOPS concepts",
+        "What is polymorphism?",
+        "What is encapsulation?",
+        "What is abstraction?",
+        "Explain inheritance"
+      ],
+      "responses": [
+        "OOPS stands for Object-Oriented Programming System. The four main concepts are Encapsulation, Inheritance, Polymorphism, and Abstraction,OOPS (Object-Oriented Programming System) is a programming concept that organizes software design around objects rather than functions and logic. In OOPS, a class acts as a blueprint, and an object is an instance of that class containing data and methods. OOPS is based on four main principles: Encapsulation, which means wrapping data and methods together and restricting direct access to data; Abstraction, which hides internal implementation details and shows only essential features; Inheritance, which allows one class to acquire properties and methods of another class for code reusability; and Polymorphism, which allows the same method or function to behave differently in different situations. OOPS improves code reusability, security, flexibility, and maintainability, and it is commonly used in languages like Java, C++, Python, and C#.."
+      ]
+    },
+
+    {
+      "tag": "hr_intro",
+      "patterns": [
+        "Tell me about yourself",
+        "Introduce yourself",
+        "Self introduction",
+        "Why should we hire you?",
+        "What are your strengths",
+        "What are your weaknesses?",
+        "Why do you want to join our company?",
+        "Where do you see yourself in 5 years"
+      ],
+      "responses": [
+        " You can choose in my ans which u want and You can say: I am currently in my final year of engineering, and throughout my academic journey, I have developed strong problem-solving skills and logical thinking ability. I have worked on academic projects that improved my technical knowledge as well as my teamwork and communication skills.        Apart from academics, I focus on improving my English fluency and confidence. I consider myself adaptable, positive, and eager to learn, and I am looking forward to starting my career in a role where I can contribute and grow professionally. You should hire me because I am a quick learner, hardworking, and adaptable. As a fresher, I may not have professional experience, but I bring strong dedication, willingness to learn, and a positive attitude. I am confident that I can understand company processes quickly and contribute effectively to the team. I am also good at handling responsibilities sincerely and maintaining professionalism.My strengths include strong communication skills, patience, adaptability, and problem-solving ability. I remain calm under pressure and try to handle situations logically. I am also a good team player and open to feedback, which helps me improve continuously. I believe these strengths will help me perform well in a professional environment.One of my weaknesses is that I sometimes focus too much on perfecting my work, which can take extra time. However, I am learning to manage my time better and prioritize tasks effectively. I see weaknesses as areas for improvement, and I continuously work on self-development.I want to join your company because it has a strong reputation for professionalism and growth opportunities. I believe this organization provides a platform where freshers can learn, develop skills, and build a stable career. I am especially interested in working in a structured environment where I can enhance both my technical and communication abilities.n five years, I see myself as a skilled professional with strong domain knowledge and leadership qualities. I want to grow within the organization, take on more responsibilities, and contribute to the company’s success. My goal is continuous learning and career advancement."
+      ]
+    },
+
+    {
+      "tag": "accenture_process",
+      "patterns": [
+        "Accenture interview process",
+        "Accenture selection process",
+        "Accenture placement rounds",
+        "Accenture recruitment process",
+        "How is Accenture interview?",
+        "Accenture hiring process",
+        "Tell me about Accenture process",
+        "Accenture exam pattern",
+        "accenture process"
+      ],
+      "responses": [
+        "Accenture selection process usually includes aptitude test, communication assessment, technical interview, and HR interview."
+      ]
+    }
+
+  ]
+}
